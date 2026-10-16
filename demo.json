@@ -1,0 +1,141 @@
+{
+  "configured": false,
+  "demo": true,
+  "fetchedAt": "2026-10-15T18:48:00.000Z",
+  "board": { "id": "demo", "name": "Spring term", "url": "https://trello.com" },
+  "lists": [
+    {
+      "id": "list-now",
+      "name": "Currently doing",
+      "role": "now",
+      "cards": [
+        {
+          "id": "c1",
+          "name": "Organic chemistry — stereochemistry",
+          "desc": "Newman projections and R/S assignment. Finish the worked examples before the problem set.",
+          "url": "#",
+          "due": "2026-10-16T02:00:00.000Z",
+          "dueComplete": false,
+          "labels": [
+            { "id": "l1", "name": "Chem", "color": "red" },
+            { "id": "l2", "name": "Exam track", "color": "orange" }
+          ],
+          "checklists": [
+            {
+              "id": "ch1",
+              "name": "Tonight",
+              "total": 4,
+              "done": 2,
+              "items": [
+                { "id": "i1", "name": "Read Klein 5.1–5.3", "checked": true },
+                { "id": "i2", "name": "Worked examples 1–6", "checked": true },
+                { "id": "i3", "name": "Problem set 12–18", "checked": false },
+                { "id": "i4", "name": "Anki: 20 cards", "checked": false }
+              ]
+            }
+          ],
+          "checks": { "total": 4, "done": 2 }
+        },
+        {
+          "id": "c2",
+          "name": "Linear algebra problem set 6",
+          "desc": "Eigenvalues, diagonalization.",
+          "url": "#",
+          "due": null,
+          "dueComplete": false,
+          "labels": [{ "id": "l3", "name": "Math", "color": "blue" }],
+          "checklists": [],
+          "checks": { "total": 0, "done": 0 }
+        }
+      ]
+    },
+    {
+      "id": "list-todo",
+      "name": "To do",
+      "role": "todo",
+      "cards": [
+        {
+          "id": "c3",
+          "name": "History essay outline — labor & cities",
+          "desc": "1,800 words. Primary sources from week 4 folder.",
+          "url": "#",
+          "due": "2026-10-18T18:00:00.000Z",
+          "dueComplete": false,
+          "labels": [{ "id": "l4", "name": "Writing", "color": "green" }],
+          "checklists": [
+            {
+              "id": "ch2",
+              "name": "Draft",
+              "total": 3,
+              "done": 1,
+              "items": [
+                { "id": "i5", "name": "Thesis sentence", "checked": true },
+                { "id": "i6", "name": "Three body claims", "checked": false },
+                { "id": "i7", "name": "Source list", "checked": false }
+              ]
+            }
+          ],
+          "checks": { "total": 3, "done": 1 }
+        },
+        {
+          "id": "c4",
+          "name": "Spanish oral — unit 7 verbs",
+          "desc": "",
+          "url": "#",
+          "due": "2026-10-20T18:00:00.000Z",
+          "dueComplete": false,
+          "labels": [{ "id": "l5", "name": "Lang", "color": "purple" }],
+          "checklists": [],
+          "checks": { "total": 0, "done": 0 }
+        }
+      ]
+    },
+    {
+      "id": "list-later",
+      "name": "Later this week",
+      "role": "other",
+      "cards": [
+        {
+          "id": "c5",
+          "name": "Lab report: titration",
+          "desc": "Figures + error analysis.",
+          "url": "#",
+          "due": "2026-10-21T18:00:00.000Z",
+          "dueComplete": false,
+          "labels": [{ "id": "l1", "name": "Chem", "color": "red" }],
+          "checklists": [],
+          "checks": { "total": 0, "done": 0 }
+        }
+      ]
+    },
+    {
+      "id": "list-done",
+      "name": "Done",
+      "role": "done",
+      "cards": [
+        {
+          "id": "c6",
+          "name": "Calc II quiz review",
+          "desc": "",
+          "url": "#",
+          "due": null,
+          "dueComplete": true,
+          "labels": [{ "id": "l3", "name": "Math", "color": "blue" }],
+          "checklists": [],
+          "checks": { "total": 0, "done": 0 }
+        },
+        {
+          "id": "c7",
+          "name": "Read Durkheim excerpt",
+          "desc": "",
+          "url": "#",
+          "due": null,
+          "dueComplete": true,
+          "labels": [{ "id": "l4", "name": "Writing", "color": "green" }],
+          "checklists": [],
+          "checks": { "total": 0, "done": 0 }
+        }
+      ]
+    }
+  ]
+}
